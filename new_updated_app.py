@@ -130,7 +130,7 @@ with col2:
         with st.spinner("Calculating..."):
 
 # Create DataFrame from Streamlit form inputs
-input_df = pd.DataFrame([input_data])
+input_df = pd.DataFrame(input_data)
 
 # Add missing training features using training defaults
 for col in feature_columns:
